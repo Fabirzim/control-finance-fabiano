@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input__value {
+  border: 1.5px solid var(--color-grey-3);
+  color: var(--color-grey-2);
+  background-color: var(--fixed-white);
+  border-radius: var(--radius-1);
+  padding: 0 1rem;
+  height: 2.625rem;
+}
+
+.input__value:focus {
+  border: 1.5px solid var(--color-brand-1);
+  outline: none;
+}
+
+.menu-content {
+  justify-content: space-between;
+}
+
+.menu-content {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container {
+  max-width: 43rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 43rem;
+    margin: 0 1rem;
+  }
+}

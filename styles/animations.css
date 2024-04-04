@@ -1,0 +1,17 @@
+@keyframes animateModal {
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+    0% {
+      transform: translateY(80%);
+      opacity: 0;
+    }
+  
+  }
+  .modal{
+    animation: animateModal 1s;
+  }
+
+

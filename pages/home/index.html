@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Control Finance</title>
+	<link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon" />
+	<meta name="description" content="Control Finance - Seu controle financeiro" />
+	<link rel="stylesheet" href="/styles/globalStyles.css" />
+	<link rel="stylesheet" href="/styles/animations.css" />
+	<link rel="stylesheet" href="/styles/btn.css" />
+	<link rel="stylesheet" href="/styles/index.css" />
+	<link rel="stylesheet" href="/styles/modal.css" />
+	<link rel="stylesheet" href="/pages/home/style.css" />
+</head>
+
+<body>
+	<main id="app">
+
+		<header class="header">
+			<section class="container header__menu">
+				<h1 class="text__control color-brand-1 font-title-1-bold">Control<strong
+						class="color-grey-1">Finance</strong> </h1>
+				<button class="modal__fixed" class="button__open">Registrar novo valor</button>
+			</section>
+		</header>
+
+		<section class="container flx resume">
+			<h2 class="summary font-title-2-medium">Resumo financeiro</h2>
+			<nav class="nav flx">
+				<button class="button__nav filtrando">Todos</button>
+				<button class="button__nav enter">Entradas</button>
+				<button class="button__nav close">Saídas</button>
+			</nav>
+		</section>
+
+		<div class="container value__sum">
+			<p class="sum__values font-text-2-medium">Soma dos valores</p>
+			<span class="span__sum"></span>
+		</div>
+
+		<ul class="container ul__listed">
+		</ul>
+
+		</section>
+	</main>
+
+	<script src="/scripts/modal.js"></script>
+	<script src="/scripts/card.js"></script>
+	<script src="/scripts/filter.js"></script>
+	<script src="/pages/home/valuesData.js"></script>
+	<script src="/pages/home/index.js"></script>
+</body>
+
+</html>
